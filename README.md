@@ -49,8 +49,6 @@ You'll need to make extensive use of `document.createElement`!
 
 ---
 
-## Exercise 2
-
 ---
 
 <center>🟢 - Complete workshop (100%) - 🟢</center>
