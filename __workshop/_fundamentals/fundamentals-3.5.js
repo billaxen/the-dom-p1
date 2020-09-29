@@ -3,11 +3,11 @@
 //
 // Part 1 - Write
 // ---------------
-// Write a function that returns the letter at the specified position in the
+// Write a function that returns the character at the specified position in the
 // string.
 
 // - If the string is not a string, return undefined.
-// - If there is no letter in the provided index, return undefined.
+// - If there is no character at the provided index, return undefined.
 
 function getLetterAtIndex(str, index) {
   // Your code here
