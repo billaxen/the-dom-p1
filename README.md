@@ -1,5 +1,25 @@
 # JavaScript - The DOM - P1
 
+---
+
+## 🦊 Pre-lecture
+
+⏲️ _Estimated time required: 45 minutes._
+
+Read the first article and skim through the second one to begin to understand the power of the DOM and how it is used in JavaScript.
+
+- Read the provided documents in the `__pre-lecture` folder.
+- Read https://css-tricks.com/dom/ (article)
+- Skim over this documentation: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+
+---
+
+## 🦉 Lecture
+
+[m2_d3.pdf](__lecture/m2_d3.pdf)
+
+---
+
 ## Setup
 
 ```
@@ -10,9 +30,11 @@ yarn install
 
 Starting today, there will be a fundamentals section in each workshop. Start by completing this section before moving on to the following exercises.
 
-See the [README.md](./workshop/_fundamentals/README.md) for more information.
+See the [\_\_workshop/\_fundamentals/README.md](./workshop/_fundamentals/README.md) in for more information.
 
 ---
+
+## ⚡ Exercises
 
 ## Exercise 1 - Creating DOM Nodes
 
@@ -40,14 +62,6 @@ In other words: We'll start by recreating the HTML structure, without worrying a
 ### How do I do this?
 
 You'll need to make extensive use of `document.createElement`!
-
----
-
----
-
-<center>🟡 - Minimally complete workshop (75%) - 🟡</center>
-
----
 
 ---
 

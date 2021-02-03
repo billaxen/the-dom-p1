@@ -1,14 +1,6 @@
 # Fundamentals: Testing
 
----
-
-- What is it?
-- Why do we do it?
-- When do we do it?
-
----
-
-### What is a test?
+A test is a piece of code that will validate another piece of code. It will run it to be certain that it is behaving properley, that it \_return_s the right value given an input.
 
 ```js
 // Example
@@ -30,13 +22,13 @@ test("Exercise 0", function () {
 });
 ```
 
-## Run the test in the VS Code Terminal with `yarn test exercise-3.0`
+Run the test in the VS Code Terminal with `yarn test exercise-3.0`
 
-# Exercises
+## Exercises
 
-Find and fix the issues.
+Take a look at these exercises, can you fix the errors?
 
----
+Copy of the code is provided below but feel free to do the work in [Codesandbox](https://codesandbox.io/s/m2d3-testing-exercise-wjtbe?file=/index.js)
 
 ```js
 // Exercise 1
@@ -78,26 +70,19 @@ function doesNameStartWithLetter(name, letter) {
 
 function expect(result, value) {
   if (result === value) {
-    console.log("✅ Test succeeded");
+    console.log('✅ Test succeeded');
   } else {
     console.log(`⛔️ Expected “${result}” to equal “${value}”`);
   }
 }
 
-expect(doesNameStartWithLetter("Josh", "J"), true);
-expect(doesNameStartWithLetter("Josh", "A"), false);
+expect(doesNameStartWithLetter('Josh', 'J'), true);
+expect(doesNameStartWithLetter('Josh', 'A'), false);
 ```
-
----
 
 ### Exception, where are you?
 
-There are cases when
-
-- there is no error message.
-- the error message is wrong.
-
----
+There are cases when there is no error message. Or that the error message is wrong.
 
 Possible causes are
 
@@ -105,20 +90,10 @@ Possible causes are
 - Error is caught somewhere else
 - Bug is in the build process (covered later in the course)
 
----
-
 #### Finding Exceptions
 
-The error message is missing perhaps 5% of the time (rough).
-
-This makes it hard to find the bug.
-
-This is where using `console.log()` can really help.
-
----
+The error message is missing perhaps 5% of the time (rough). This makes it hard to find the bug. This is where using `console.log()` can really help.
 
 Learning to `console.log` effectively is an essential part of becoming a developer.
 
 It allows you to be independent.
-
-_It's one of the most important parts of this course._
