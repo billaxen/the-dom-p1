@@ -16,7 +16,7 @@ Read the first article and skim through the second one to begin to understand th
 
 ## 🦉 Lecture
 
-[m2_d3.pdf](__lecture/m2_d3.pdf)
+[lecture-1-dom.pdf](__lecture/lecture-1-dom.pdf)
 
 ---
 
