@@ -28,9 +28,9 @@ yarn install
 
 ## Fundamentals
 
-Starting today, there will be a fundamentals section in each workshop. Start by completing this section before moving on to the following exercises.
+Starting today, there will be a fundamentals section in each workshop. These are optional but **_HIGHLY_** recommended!
 
-See the [\_\_workshop/\_fundamentals/README.md](./workshop/_fundamentals/README.md) in for more information.
+They are a bit more challenging but will sharpen your JS skills!
 
 ---
 

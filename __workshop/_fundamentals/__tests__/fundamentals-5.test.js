@@ -1,9 +1,11 @@
 // We import (require) the function that we want to test.
-const repeat = require("../fundamentals-3.7");
+const makeIntoTitle = require("../fundamentals-5");
 
 // Write 3 more expect functions to test the function you just wrote.
-test("Exercise 7", () => {
-  expect(repeat(["foo", 3])).toBe("foofoofoo");
+test("Exercise 5", () => {
+  expect(makeIntoTitle("a bb ccc dddd e ff ggg")).toBe(
+    "A Bb Ccc Dddd E Ff Ggg"
+  );
   // add more tests here...
 });
 
