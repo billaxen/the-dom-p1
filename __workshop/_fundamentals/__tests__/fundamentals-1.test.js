@@ -1,9 +1,9 @@
 // We import (require) the function that we want to test.
-const longestWord = require("../fundamentals-3.9");
+const calculator = require("../fundamentals-1");
 
 // Write 3 more expect functions to test the function you just wrote.
-test("Exercise 9", () => {
-  expect(longestWord("a bb ccc dddd e ff ggg")).toBe("dddd");
+test("Exercise 1", () => {
+  expect(calculator(["add", 10, 15])).toBe(25);
   // add more tests here...
 });
 

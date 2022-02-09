@@ -1,9 +1,9 @@
 // We import (require) the function that we want to test.
-const reverseIt = require("../fundamentals-3.8");
+const longestWord = require("../fundamentals-4");
 
 // Write 3 more expect functions to test the function you just wrote.
-test("Exercise 8", () => {
-  expect(reverseIt("abcdefgh")).toBe("hgfedcba");
+test("Exercise 4", () => {
+  expect(longestWord("a bb ccc dddd e ff ggg")).toBe("dddd");
   // add more tests here...
 });
 

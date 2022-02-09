@@ -1,9 +1,9 @@
 // We import (require) the function that we want to test.
-const calculator = require("../fundamentals-3.6");
+const reverseIt = require("../fundamentals-3");
 
 // Write 3 more expect functions to test the function you just wrote.
-test("Exercise 6", () => {
-  expect(calculator(["add", 10, 15])).toBe(25);
+test("Exercise 3", () => {
+  expect(reverseIt("abcdefgh")).toBe("hgfedcba");
   // add more tests here...
 });
 
