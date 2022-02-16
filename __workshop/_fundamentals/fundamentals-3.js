@@ -5,7 +5,7 @@
 // Write a function that accepts a string and returns the string, reversed.
 // For example "hello" would return "olleh" and "how are you" would return "uoy era woh".
 
-function reverseIt(str) {
+const reverseIt = (str) => {
   // Your code here
 }
 

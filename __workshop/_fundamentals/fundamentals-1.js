@@ -17,7 +17,7 @@
 // For example:
 // calculator(["add", 10, 20]); // 30
 
-function calculator(arr) {
+const calculator = (arr) => {
   // Your code here
 }
 

@@ -14,7 +14,7 @@
 //  - You'll need to use the split string method
 //  - `forEach` might be helpful
 
-function longestWord(str) {
+const longestWord = (str) => {
   // Place solution here
 }
 
