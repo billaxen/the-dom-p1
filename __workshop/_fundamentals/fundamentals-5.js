@@ -7,7 +7,7 @@
 // e.g. f("hello world"); // Hello World
 // e.g. f("BACON BROCOLI"); // Bacon Brocoli
 
-function makeIntoTitle(sentence) {
+const makeIntoTitle = (sentence) => {
   // Your code here
 }
 

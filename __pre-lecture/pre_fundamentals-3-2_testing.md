@@ -4,7 +4,7 @@ A test is a piece of code that will validate another piece of code. It will run 
 
 ```js
 // Example
-function strLength(str) => {
+const strLength = (str) => {
   if (typeof str !== "string" || str.length === 0) {
     return undefined;
   }
@@ -12,7 +12,7 @@ function strLength(str) => {
 };
 
 // A test
-test("Exercise 0", function () {
+test("Exercise 0", () => {
   expect(strLength("max")).toBe(3);
   expect(strLength("abcdefghijklmnop")).toBe(16);
   expect(strLength("This is a test case.")).toBe(20);
@@ -32,7 +32,7 @@ Copy of the code is provided below but feel free to do the work in [Codesandbox]
 
 ```js
 // Exercise 1
-function getLetterGrade(score) {
+const getLetterGrade = (score) => {
   if (score < 60) {
     return "F";
   } else if (score < 75) {
@@ -43,7 +43,7 @@ function getLetterGrade(score) {
     return "A";
 }
 
-function expect(result, value) {
+const expect = (result, value) => {
   if (result === value) {
     console.log('✅ Test succeeded');
   } else {
@@ -59,7 +59,7 @@ expect(getLetterGrade(62), "C");
 
 ```js
 // Exercise 2
-function doesNameStartWithLetter(name, letter) {
+const doesNameStartWithLetter = (name, letter) => {
   let firstLetter = name[0];
   if ((firstLetter = letter)) {
     return true;
@@ -68,7 +68,7 @@ function doesNameStartWithLetter(name, letter) {
   }
 }
 
-function expect(result, value) {
+const expect = (result, value) => {
   if (result === value) {
     console.log('✅ Test succeeded');
   } else {

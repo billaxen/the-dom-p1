@@ -40,7 +40,7 @@ It should be your FIRST reflex.
 This code snippet throws the error below. Feel free to run it to verify. What is the problem and how do we fix it?
 
 ```js
-function getCartTotal(data) {
+const getCartTotal = (data) => {
   let salesTax = 1.14;
   return data.cart.subtotal * salesTax;
 }

@@ -11,7 +11,7 @@
 //
 // example: repeat(['foo', 3]) returns 'foofoofoo'
 
-function repeat(arr) {
+const repeat = (arr) => {
   // Your code here
 }
 

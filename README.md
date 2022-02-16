@@ -26,6 +26,8 @@ Read the first article and skim through the second one to begin to understand th
 yarn install
 ```
 
+---
+
 ## Fundamentals
 
 Starting today, there will be a fundamentals section in each workshop. These are optional but **_HIGHLY_** recommended!
