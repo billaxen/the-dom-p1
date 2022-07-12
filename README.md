@@ -16,11 +16,9 @@ Read the first article and skim through the second one to begin to understand th
 
 ## 🦉 Lecture
 
-[lecture-1-debugging.md](__lecture/lecture-1-debugging.md)
-
-[lecture-2-manipulating-the-dom.md](__lecture/lecture-2-manipulating-the-dom.md)
-
-[lecture-3-timing-and-delay.md](__lecture/lecture-3-timing-and-delay.md)
+- [lecture-1-debugging.md](__lecture/lecture-1-debugging.md)
+- [lecture-2-manipulating-the-dom.md](__lecture/lecture-2-manipulating-the-dom.md)
+- [lecture-3-timing-and-delay.md](__lecture/lecture-3-timing-and-delay.md)
 
 ---
 
