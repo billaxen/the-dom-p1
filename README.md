@@ -42,7 +42,9 @@ They are a bit more challenging but will sharpen your JS skills!
 
 ## Exercise 1 - Creating DOM Nodes
 
-<img src="./__lecture/assets/exercise-1.png" />
+<img src="./__lecture/assets/exercise-1.jpg" />
+
+> PS: The picture is very zoomed out just to give you an idea of what the full site looks like.
 
 In this exercise, we'll see how to create web pages using Javascript alone!
 
